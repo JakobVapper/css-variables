@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --green-500: rgb(254, 254, 254);
+}
+
+.log-in-button {
+    padding: 4px 16px;
+    margin: 16px;
+    background-color: var(--green-500);
+    box-shadow: 4px 4px 55px 19px rgba(0,226,255,1);
+    -webkit-box-shadow: 4px 4px 55px 19px rgba(0,226,255,1);
+    -moz-box-shadow: 4px 4px 55px 19px rgba(0,226,255,1);
+}
+
+p {
+    color: var(--green-500);
+}
